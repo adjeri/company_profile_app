@@ -4,7 +4,7 @@ class RepoData {
   static final Company company = Company(
       name: "Adjeri & Co",
       location: "Tokyo, JP,",
-      logo: "assets/businessman.png",
+      logo: "assets/webdev.png",
       backdropPhoto: "assets/businessman.png",
       about: "Happy developer improving his skills",
       activities: <Activity>[

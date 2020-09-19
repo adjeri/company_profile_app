@@ -1,4 +1,7 @@
+import 'package:company_profile/repo/repo.dart';
 import 'package:flutter/material.dart';
+
+import 'company_details_page.dart';
 
 class CompanyDetailsAnimator extends StatefulWidget {
   @override
@@ -25,10 +28,9 @@ class _CompanyDetailsAnimatorState extends State<CompanyDetailsAnimator> with Si
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text("Hello animations"),
-      ),
+    return CompanyDetailsPage(
+      company: RepoData.company,
+      controller: _controller,
     );
   }
 }
