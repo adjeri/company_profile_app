@@ -24,15 +24,17 @@ class ActivityCard extends StatelessWidget {
   Widget _createThumbnail() {
     return ClipRRect(
       borderRadius: BorderRadius.circular(8.0),
-      child: Stack(
-        children: [
-          Image.asset(activity.thumbnail),
-          Positioned(
-              bottom: 12.0,
-              right: 12.0,
-              child: _createdLinkButton()
-          )
-        ],
+      child: Center(
+        child: Stack(
+          children: [
+            Image.asset(activity.thumbnail,),
+            Positioned(
+                bottom: 12.0,
+                right: 12.0,
+                child: _createdLinkButton()
+            )
+          ],
+        ),
       ),
     );
   }
