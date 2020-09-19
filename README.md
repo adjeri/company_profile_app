@@ -1,6 +1,8 @@
-# company_profile
+# Flutter company profile
 
-This is an app that shows a company profile. The emphasis here is to know more about Flutter animations.
+This is an app that shows a company profile. The emphasis here is to know more about Flutter animations. 
+It displays an avatar, text, activities of the company in an horizontal ListView, and a button that opens a URL in the browser. 
+Various animations (background picture blurred, listview scrolls from right to left,...) are displayed when widgets show up 
 
 ## Useful
 
