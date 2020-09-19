@@ -1,10 +1,8 @@
 # company_profile
 
-A new Flutter project.
+This is an app that shows a company profile. The emphasis here is to know more about Flutter animations.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Useful
 
 A few resources to get you started if this is your first Flutter project:
 
