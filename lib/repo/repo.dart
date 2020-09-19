@@ -6,7 +6,7 @@ class RepoData {
       location: "Tokyo, JP,",
       logo: "assets/webdev.png",
       backdropPhoto: "assets/businessman.png",
-      about: "Happy developer improving his skills",
+      about: "Excited developer always eager to learn, improve his skills and helping others. Hope to be a great source of inspiration to others..",
       activities: <Activity>[
         Activity(title: 'App development', thumbnail: "assets/android.png", url: "https://en.wikipedia.org/wiki/Flutter_(software)"),
         Activity(title: 'E-commerce', thumbnail: "assets/ecommerce.png", url: "https://en.wikipedia.org/wiki/E-commerce"),
