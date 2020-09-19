@@ -55,7 +55,28 @@ class ActivityCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      width: 175.0,
+      padding: EdgeInsets.all(8.0),
+      margin: EdgeInsets.symmetric(horizontal: 12.0,vertical: 16.0),
+      decoration: _createShadowRoundCorners(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Flexible(flex: 3, child: _createThumbnail(),),
+            Flexible(flex: 2, child: createActivityInfo(),)
+          ],
+      )
+    );
+  }
+
+  Widget createActivityInfo() {
+    return Padding (
+      padding: EdgeInsets.only(top: 16.0, left: 4.0, right: 4.0),
+      child: Text(activity.title, style: TextStyle(
+        color: Colors.white.withOpacity(0.85)
+      ))
+    );
   }
 
 }

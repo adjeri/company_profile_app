@@ -8,7 +8,8 @@ class RepoData {
       backdropPhoto: "assets/businessman.png",
       about: "Group of excited developers always eager to learn, improve on their skills and helping others. Hope to be a great source of inspiration to others..",
       activities: <Activity>[
-        Activity(title: 'App development', thumbnail: "assets/android.png", url: "https://en.wikipedia.org/wiki/Flutter_(software)"),
+        Activity(title: 'App development', thumbnail: "assets/android.jpg"
+            "", url: "https://en.wikipedia.org/wiki/Flutter_(software)"),
         Activity(title: 'E-commerce', thumbnail: "assets/ecommerce.png", url: "https://en.wikipedia.org/wiki/E-commerce"),
         Activity(title: 'Home delivery', thumbnail: "assets/delivery.png", url: "https://en.wikipedia.org/wiki/Package_delivery"),
         Activity(title: 'Digital marketing', thumbnail: "assets/marketing.png", url: "https://en.wikipedia.org/wiki/Digital_marketing"),

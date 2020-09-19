@@ -18,7 +18,7 @@ class CompanyDetailsIntroAnimation {
         locationOpacity = Tween(begin: 0.0, end: 0.84).animate(CurvedAnimation(
             parent: controller,
             curve: Interval(0.500, 0.600, curve: Curves.easeIn))),
-        dividerWidth = Tween(begin: 1.1, end: 225.0).animate(CurvedAnimation(
+        dividerWidth = Tween(begin: 2.1, end: 225.0).animate(CurvedAnimation(
             parent: controller,
             curve: Interval(0.650, 0.750, curve: Curves.elasticInOut))),
         aboutOpacity = Tween(begin: 0.0, end: 0.85).animate(CurvedAnimation(

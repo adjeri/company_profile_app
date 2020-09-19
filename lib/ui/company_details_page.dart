@@ -55,6 +55,7 @@ class CompanyDetailsPage extends StatelessWidget {
         children: [
           _createLogoAvatar(),
           _createAboutCompany(),
+          _createActivityScroller()
         ],
       ),
     );
@@ -133,7 +134,7 @@ class CompanyDetailsPage extends StatelessWidget {
     );
   }
 
-  Widget _createCourseScroller(){
+  Widget _createActivityScroller(){
     return Padding (
       padding: EdgeInsets.only(top: 14.0),
         child: Transform(transform: Matrix4.translationValues(animation.courseScrollerXTranslation.value, 0.0, 0.0),
