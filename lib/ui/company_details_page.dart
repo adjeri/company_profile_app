@@ -1,4 +1,5 @@
 import 'package:company_profile/model/company.dart';
+import 'package:company_profile/ui/activity_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
@@ -129,6 +130,26 @@ class CompanyDetailsPage extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _createCourseScroller(){
+    return Padding (
+      padding: EdgeInsets.only(top: 14.0),
+        child: Transform(transform: Matrix4.translationValues(animation.courseScrollerXTranslation.value, 0.0, 0.0),
+          child: SizedBox.fromSize(
+            size: Size.fromHeight(250.0),
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              padding: EdgeInsets.symmetric(horizontal: 7.0),
+              itemCount: company.activities.length,
+              itemBuilder: (BuildContext context, int index){
+                var activity = company.activities[index];
+                return ActivityCard(activity);
+              },
+            )
+          ),
+        )
     );
   }
 }
